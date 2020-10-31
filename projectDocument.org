@@ -1,0 +1,11 @@
+#+TITLE: Project 2DORO V2
+
+* Project gist
+  to create a better terminal of the doro
+
+* App functions
+  - has a count up and down functions
+  - able to work with simple .md file to create a temporary todolist
+  - mainly keyboard driven
+  - break time functions
+  - great terminal visual
