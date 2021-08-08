@@ -3,8 +3,7 @@ from os import system, name
   
 # define our clear function 
 def Clear(): 
-  
-    # for windows 
+    # for windows
     if name == 'nt': 
         _ = system('cls') 
   
