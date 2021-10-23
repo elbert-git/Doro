@@ -20,7 +20,9 @@ def format_seconds(secs):
 while True:
     #-------ask for input
     #ask for input in minutes
-    arg = input("Time in Minutes?")
+    ClearScreen.Clear()
+    print(figlet_format("TIME?", justify="center"))
+    arg = input("How many Minutes?")
 
     #-------process input
 
@@ -36,7 +38,7 @@ while True:
 
     #-------countdown
     while seconds != 0:
-       ClearScreen.Clear()
        print(figlet_format(format_seconds(seconds), justify="center"))
        seconds -= 1
        time.sleep(1)
+       ClearScreen.Clear()
